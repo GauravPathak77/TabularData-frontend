@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://assignment-6bh7.onrender.com/api/data")
+    fetch("https://data-server-aroo.onrender.com/api/data")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
