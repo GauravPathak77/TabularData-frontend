@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+  background: #121FCF;
+  background: linear-gradient(to right, #121FCF 20%, #CF1512 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  
+}
+
+table{
+  border: 1px solid black;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.1), 10px 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Dancing Script', cursive;
+  margin: 5%;
+  padding: 2%;
+  background-color: #2A2F4F;
+}
+
+thead{
+  background-color: #917FB3;
+}
+
+tbody{
+  background-color: #E5BEEC;
+}
+.firstCol{
+  background-color: #FDE2F3;
+}
+
+th,td {
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+hr {
+  height: 50px;
+  width: 30%;
+  position:relative;
+  bottom: 2vw;
+  border:#2A2F4F;
+  border-top: 2px dotted #999;
+}
